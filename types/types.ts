@@ -1,1 +1,3 @@
-export type DragData = Record<string, string[]>;
+type ContainerKey = "todo" | "in progress" | "completed";
+
+export type DragData = Record<ContainerKey, string[]>;
